@@ -9,5 +9,4 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 EOF
 
 
-apt update
 apt -o Dir::Etc::sourceparts="-" -o Dir::Etc::sourcelist="/etc/apt/sources.list.d/noble.sources" update
